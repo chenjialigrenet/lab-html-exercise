@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-
 /* nav line */
 body {
   font-family: 'Poppins';
-  
+  padding: 0;
+  margin: 0;
 }
 
 header > div {
@@ -41,7 +41,6 @@ nav a {
   margin-right: 1rem;
 }
 
-
 /* search bar */
 
 /* form label color: rgba(0,0,0,.05)
@@ -50,19 +49,17 @@ form button background color: #fb3e44
 form button letters color: white */
 .search-bar {
   padding: 10px 25px;
-/*   width: 600px; */
+  /*   width: 600px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-.search-bar form{
+.search-bar form {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0,0,0,.05);
+  background-color: rgba(0, 0, 0, 0.05);
   width: 80%;
-  
 }
 
 .npm-logo {
@@ -74,18 +71,16 @@ form button letters color: white */
   height: 1.5em;
   margin: auto;
   /* background-color: rgba(0,0,0,.05); */
-  
 }
 
 .input {
   width: 100%;
   background-color: transparent;
-  color: rgba(0,0,0,.05);
+  color: rgba(0, 0, 0, 0.05);
   border: none;
   margin-left: 10px;
   font-size: 16px;
 }
-
 
 .search-button {
   background-color: #fb3e44;
@@ -118,7 +113,7 @@ form button letters color: white */
   flex-direction: column;
   align-items: center;
   height: 600px;
-  background-color: rgba(232,217,217,.3);
+  background-color: rgba(232, 217, 217, 0.3);
 }
 
 #upper-part h1 {
@@ -136,25 +131,26 @@ form button letters color: white */
   margin: 80px;
 }
 
-#see-plans {
-  background-color: #FB3B49;
-  color: white;
+#see-plans,
+#join-for-free {
   text-decoration: none;
   font-style: bolder;
-  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
-  padding: 10px 70px;
   margin: 20px;
+}
+
+#see-plans {
+  background-color: #fb3b49;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+  padding: 10px 70px;
 }
 
 #join-for-free {
   background-color: white;
   color: black;
-  font-style: bolder;
-  text-decoration: none;
-  padding: 10px 50px;
-  margin: 20px;
-}
 
+  padding: 10px 50px;
+}
 
 /* section 2 */
 
@@ -181,10 +177,10 @@ to additionally fine-tune the position of each element, use margin property. */
 #middle-part h2 {
   font-size: 35px;
   text-align: center;
-  background-color: rgba(255,204,53,.4);
-  transform: skew(9deg,0deg);
+  background-color: rgba(255, 204, 53, 0.4);
+  transform: skew(9deg, 0deg);
   font-style: italic;
-/*   margin-top: */
+  /*   margin-top: */
   margin-bottom: 40px;
 }
 
@@ -219,19 +215,21 @@ to additionally fine-tune the position of each element, use margin property. */
 
 #lower-part h3 {
   font-style: bold;
-/*   font-weight:  */
-  color: #ED1C24;
+  /*   font-weight:  */
+  color: #ed1c24;
   padding-bottom: 20px;
 }
 
-#zero-configuration, #team-management, #familiar-features, #npm-audit {
+#zero-configuration,
+#team-management,
+#familiar-features,
+#npm-audit {
   width: 25%;
   margin: 30px;
 }
 
 .create-org-button {
   text-align: center;
-  
 }
 
 .create-org-button a {
@@ -239,7 +237,7 @@ to additionally fine-tune the position of each element, use margin property. */
   background-color: black;
   color: white;
   font-style: bold;
-  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
   padding: 10px 30px;
   width: 250px;
 }
